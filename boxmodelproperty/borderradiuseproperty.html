@@ -1,0 +1,60 @@
+<!-- how to use border-radius property -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>border</title>
+   <style>
+#bor1{
+   /* border-top: 2px;
+   border-right:3px;
+   border-left: 5px;
+   border-bottom: 7px;
+   border-top-style: dashed;
+   border-right-style: dotted;
+   border-bottom-style: double;
+   border-left-style: solid; */
+   /* as same we use style color property to use one by one  */
+    /* shorthand   */
+   border :2px solid black;
+    border: size style color ;
+   height: 60px;
+   width:60px;
+   background-color: aquamarine;
+    border-radius: 30px;
+}
+#bor2{
+   border:3px dotted crimson;
+   height: 60px;
+   width:60px;
+   background-color: aquamarine;
+   border-radius:50%;
+
+}
+#bor4{
+   border:3px dashed crimson;
+   height: 60px;
+   width:60px;
+   /* border radius shorthand
+   width:60px;border-top-left-radius border-right-bottom radius ;
+  */
+   border-radius: 10px 20px 30px 40px;
+   background-color: aquamarine;
+}
+#bor3{
+   border:3px double crimson;
+   height: 60px;
+   width:60px;
+   background-color: aquamarine;
+   border-radius:10px ;
+}
+   </style>
+</head>
+<body>
+   <div id="bor1">lorem</div>
+   <div id="bor2">lorem</div>
+   <div id="bor3">lorem</div>
+   <div id="bor4">lorem</div>
+</body>
+</html>

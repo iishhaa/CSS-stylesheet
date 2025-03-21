@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width:100px;
+            height:100px;
+            margin: 5px;
+           background-color: burlywood;
+
+        }
+        #box1{
+            background-color: cadetblue;
+            position: static;
+            /* in static element we can't  use  top,right,left,bottom 
+            //default property of position is static
+        */
+        }
+        #box2{
+            background-color:chartreuse ;
+            position: relative;
+            top: 10px;
+            left: 70px;
+            /* you can see it position change itself from 20px on top */
+
+        }
+        #box3{
+            background-color: springgreen;
+            position: absolute;
+            top: 22px;
+            left: 60px;
+            /* position property absolute set on element relative to the nearest position ancestor or   doucument
+                 it is also used to overlap the element
+                 parent property nearest
+            */
+        }
+         #box4{
+            background-color: plum;
+            position: fixed;
+            top: 30px;
+            left: 10px;
+            /* fixed also overlap */
+         }  
+         #box5{
+            background-color: cadetblue;
+            position: sticky;
+            top: 600px;
+            left: 500px; ;
+         }
+
+    </style>
+</head>
+<body>
+  <div id="box1" class="box">static</div>  
+  <div id="box2" class="box">relative</div>  
+  <div id="box3" class="box">absolute</div>  
+  <div id="box4" class="box">fixed</div>  
+  <div id="box5" class="box">sticky</div>  
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+  <div class="box">box</div>
+</body>
+</html>

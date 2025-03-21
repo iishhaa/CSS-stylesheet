@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>relative unit em</title>
+    <style>
+     *{
+        font-size: 100px;
+     }
+     #first{
+        font-size: 25px;
+        /* //override the font property  */
+        background-color: rgb(255, 174, 0);
+        width: 400px;
+        height: 400px;
+        border: 2px solid red;
+     }
+     #second{
+       border: 2px solid green;
+       background-color: palegreen;
+       font-size: 2em;
+       width: 40%;
+       height: 50%;
+       /* 2em means double or twice of parent proprty*/
+     }
+    </style>
+</head>
+<body>
+    body text<div id="first">first text
+        <div id="second">second text</div>
+    </div>
+    <!-- in there em means half of child property oof parent
+      and 2em means twice of  parent property and half of child  to is equal the parent
+      parent =child
+      1/2    =  1em
+      1=        2em it depeends on element of parent  attributes
+      -->
+</body>
+</html>

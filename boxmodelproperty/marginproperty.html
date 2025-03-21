@@ -1,0 +1,48 @@
+<!-- how to use margin property -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>margin property</title>
+<style>
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    #div1{
+        /* margin can never count in under the box */
+       background-color:aqua;
+       padding:10px 20px 30px 40px;
+       /*  short hand property
+       margin :top right bottom left
+       margin:10px 30px 40px 50px
+       same margin give to all side
+       margin:10px;
+       margin-left:10px;
+       margin-right:20px;
+       margin-top 22px;
+       margin-bottom:30px
+       margin is a gap beetween two elements.
+       it takes places outside the element
+       in two elements has specify maximum gap 
+      */
+       margin:10px 20px 25px 40px;
+       height: 100px;
+       width: 100px;
+    }
+    #div2{
+        background-color: crimson;
+        height: 100px;
+        width: 100px;
+        padding: 10px 20px 30px 40px;
+        margin:10px 20px 25px 40px;
+    }
+</style>
+</head>
+<body>
+    <div id="div1">checker1</div>
+    <div id="div2">checker2</div>
+     
+</body>
+</html>
